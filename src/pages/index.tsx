@@ -7,7 +7,7 @@ import ExpenseTotal from '@/components/ExpenseTotal';
 import ExpenseList from '@/components/ExpenseList';
 import AllocationForm from '@/components/AllocationForm';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
