@@ -12,7 +12,7 @@ import AllocationForm from '@/components/AllocationForm';
 export default function Home() {
   return (
     <div className="container">
-      <h1 className="mt-3">Company's Budget Allocation</h1>
+      <h1 className="mt-3">{"Company's Budget Allocation"}</h1>
       <div className="row mt-3">
         <div className="col-sm">
           <Budget />
@@ -24,13 +24,13 @@ export default function Home() {
           <ExpenseTotal />
         </div>
       </div>
-      <h3 className="mt-3">Allocation</h3>
+      <h3 className="mt-3">{'Allocation'}</h3>
       <div className="row ">
         <div className="col-sm">
           <ExpenseList />
         </div>
       </div>
-      <h3 className="mt-3">Change allocation</h3>
+      <h3 className="mt-3">{`Change allocation`}</h3>
       <div className="row mt-3">
         <div className="col-sm">
           <AllocationForm />
